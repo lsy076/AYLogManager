@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <AYLogManager/AYAlertViewController.h>
-#import <AYLogManager/AYWebViewController.h>
+#import <AYLogManager/AYLogViewController.h>
 
 @interface ViewController ()
 
@@ -19,13 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    //摇一摇弹出LogViewController
     self.isCanShake = YES;
     
     UIButton *showLog = [UIButton buttonWithType:UIButtonTypeSystem];
     showLog.frame = CGRectMake(0, 0, 200, 80);
     showLog.center = self.view.center;
-    [showLog setTitle:@"输入密码弹出log列表" forState:UIControlStateNormal];
+    [showLog setTitle:@"输入密码弹出log管理" forState:UIControlStateNormal];
     [showLog addTarget:self action:@selector(showLogMethod) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:showLog];
 }
@@ -38,7 +38,7 @@
         
         if ([pwdText.text isEqualToString:@"123456"]) {
             
-            AYWebViewController *webViewVC = [AYWebViewController new];
+            AYLogViewController *webViewVC = [AYLogViewController new];
             
             UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:webViewVC];
             

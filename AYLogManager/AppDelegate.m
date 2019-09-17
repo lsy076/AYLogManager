@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <AYLogManager/AYRedirectLogConfig.h>
+#import <AYLogManager/AYLogConfig.h>
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [AYRedirectLogConfig setupDefaultLogConfig];
+    [AYLogConfig setupDefaultLogConfig];
     
     return YES;
 }
