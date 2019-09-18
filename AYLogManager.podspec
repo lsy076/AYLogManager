@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 s.name         = "AYLogManager"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "AYLogManager."
 s.description  = <<-DESC
-AYLogManager对讲库
+AYLogManagerWeb端查看log
 DESC
 s.homepage     = "https://github.com/lsy076/AYLogManager"
 s.license      = { :type => "MIT", :file => "LICENSE" }
