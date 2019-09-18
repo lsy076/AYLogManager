@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19490ACD2332009C003AEA4F /* AYLogManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19490ACC2332009C003AEA4F /* AYLogManager.framework */; };
+		19490ACF23322A62003AEA4F /* AYLogManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19490ACE23322A62003AEA4F /* AYLogManager.framework */; };
 		19946745232FA876002F76A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19946744232FA876002F76A4 /* AppDelegate.m */; };
 		19946748232FA876002F76A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19946747232FA876002F76A4 /* ViewController.m */; };
 		1994674B232FA876002F76A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19946749232FA876002F76A4 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		19490ABA2331DDFD003AEA4F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		19490ACC2332009C003AEA4F /* AYLogManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AYLogManager.framework; sourceTree = "<group>"; };
+		19490ACE23322A62003AEA4F /* AYLogManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AYLogManager.framework; sourceTree = "<group>"; };
 		19946740232FA876002F76A4 /* AYLogManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYLogManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19946743232FA876002F76A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19946744232FA876002F76A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19490ACD2332009C003AEA4F /* AYLogManager.framework in Frameworks */,
+				19490ACF23322A62003AEA4F /* AYLogManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 		19946742232FA876002F76A4 /* AYLogManager */ = {
 			isa = PBXGroup;
 			children = (
-				19490ACC2332009C003AEA4F /* AYLogManager.framework */,
+				19490ACE23322A62003AEA4F /* AYLogManager.framework */,
 				19946743232FA876002F76A4 /* AppDelegate.h */,
 				19946744232FA876002F76A4 /* AppDelegate.m */,
 				19946746232FA876002F76A4 /* ViewController.h */,
