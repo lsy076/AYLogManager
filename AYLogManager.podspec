@@ -3,7 +3,7 @@ s.name         = "AYLogManager"
 s.version      = "1.0.3"
 s.summary      = "AYLogManager."
 s.description  = <<-DESC
-AYLogManagerWeb端查看log
+AYLogManager局域网内查看log
 DESC
 s.homepage     = "https://github.com/lsy076/AYLogManager"
 s.license      = { :type => "MIT", :file => "LICENSE" }
