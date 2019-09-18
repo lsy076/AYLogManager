@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19490ABE2331E5E6003AEA4F /* AYLogManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19490ABD2331E5E6003AEA4F /* AYLogManager.framework */; };
 		19946745232FA876002F76A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19946744232FA876002F76A4 /* AppDelegate.m */; };
 		19946748232FA876002F76A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19946747232FA876002F76A4 /* ViewController.m */; };
 		1994674B232FA876002F76A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19946749232FA876002F76A4 /* Main.storyboard */; };
 		1994674D232FA876002F76A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1994674C232FA876002F76A4 /* Assets.xcassets */; };
 		19946750232FA877002F76A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1994674E232FA877002F76A4 /* LaunchScreen.storyboard */; };
 		19946753232FA877002F76A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19946752232FA877002F76A4 /* main.m */; };
-		1994675A232FA895002F76A4 /* AYLogManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19946759232FA894002F76A4 /* AYLogManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19490ABA2331DDFD003AEA4F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		19490ABD2331E5E6003AEA4F /* AYLogManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AYLogManager.framework; sourceTree = "<group>"; };
 		19946740232FA876002F76A4 /* AYLogManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYLogManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19946743232FA876002F76A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19946744232FA876002F76A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,7 +29,6 @@
 		1994674F232FA877002F76A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19946751232FA877002F76A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19946752232FA877002F76A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19946759232FA894002F76A4 /* AYLogManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AYLogManager.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1994675A232FA895002F76A4 /* AYLogManager.framework in Frameworks */,
+				19490ABE2331E5E6003AEA4F /* AYLogManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +62,7 @@
 		19946742232FA876002F76A4 /* AYLogManager */ = {
 			isa = PBXGroup;
 			children = (
-				19946759232FA894002F76A4 /* AYLogManager.framework */,
+				19490ABD2331E5E6003AEA4F /* AYLogManager.framework */,
 				19946743232FA876002F76A4 /* AppDelegate.h */,
 				19946744232FA876002F76A4 /* AppDelegate.m */,
 				19946746232FA876002F76A4 /* ViewController.h */,
@@ -71,6 +72,7 @@
 				1994674E232FA877002F76A4 /* LaunchScreen.storyboard */,
 				19946751232FA877002F76A4 /* Info.plist */,
 				19946752232FA877002F76A4 /* main.m */,
+				19490ABA2331DDFD003AEA4F /* PrefixHeader.pch */,
 			);
 			path = AYLogManager;
 			sourceTree = "<group>";
@@ -295,6 +297,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AYLogManager",
 				);
+				GCC_PREFIX_HEADER = AYLogManager/PrefixHeader.pch;
 				INFOPLIST_FILE = AYLogManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,6 +320,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AYLogManager",
 				);
+				GCC_PREFIX_HEADER = AYLogManager/PrefixHeader.pch;
 				INFOPLIST_FILE = AYLogManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

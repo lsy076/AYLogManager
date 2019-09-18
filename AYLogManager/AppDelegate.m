@@ -2,12 +2,11 @@
 //  AppDelegate.m
 //  AYLogManager
 //
-//  Created by 赖盛源 on 2019/9/16.
+//  Created by dnake_ay on 2019/9/16.
 //  Copyright © 2019 dnake_ay. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import <AYLogManager/AYLogConfig.h>
 
 @interface AppDelegate ()
 
@@ -18,8 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    [AYLogConfig setupDefaultLogConfig];
     
     return YES;
 }

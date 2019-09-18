@@ -1,0 +1,6 @@
+framework module AYLogManager {
+  umbrella header "AYLogManager.h"
+
+  export *
+  module * { export * }
+}
