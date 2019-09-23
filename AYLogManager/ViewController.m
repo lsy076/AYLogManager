@@ -34,9 +34,7 @@
         
         if ([pwdText.text isEqualToString:@"123456"]) {
             
-            AYLogViewController *webViewVC = [AYLogViewController new];
-            
-            UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:webViewVC];
+            AYLogNavigationController *navigationController = [AYLogNavigationController setupLogViewController];
             
             [self presentViewController:navigationController animated:YES completion:nil];
             
