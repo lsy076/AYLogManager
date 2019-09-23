@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //摇一摇弹出LogViewController
-    self.isCanShake = YES;
     
     UIButton *showLog = [UIButton buttonWithType:UIButtonTypeSystem];
     showLog.frame = CGRectMake(0, 0, 200, 80);

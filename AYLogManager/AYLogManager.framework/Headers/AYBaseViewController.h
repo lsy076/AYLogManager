@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AYBaseViewController : UIViewController
 
-@property (assign, nonatomic) BOOL isCanShake;
-
 @end
 
 NS_ASSUME_NONNULL_END
