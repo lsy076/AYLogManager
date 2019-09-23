@@ -38,9 +38,7 @@
             
             AYLogViewController *webViewVC = [AYLogViewController new];
             
-            UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:webViewVC];
-            
-            [self presentViewController:navigationController animated:YES completion:nil];
+            [self.navigationController pushViewController:webViewVC animated:YES];
             
         }
     }];

@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AYBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AYLogViewController : UIViewController
+@interface AYLogViewController : AYBaseViewController
 
 @end
 
