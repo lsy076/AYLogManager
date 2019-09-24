@@ -2,7 +2,7 @@
 //  AYLogNavigationController.h
 //  AYLogManager
 //
-//  Created by 赖盛源 on 2019/9/23.
+//  Created by dnake_ay on 2019/9/23.
 //  Copyright © 2019 dnake_ay. All rights reserved.
 //
 
