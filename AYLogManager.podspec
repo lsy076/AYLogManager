@@ -12,5 +12,4 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/lsy076/AYLogManager.git", :tag => s.version }
 s.vendored_frameworks = "AYLogManager/AYLogManager.framework"
 s.requires_arc = true
-s.dependency 'AYUtils'
 end
