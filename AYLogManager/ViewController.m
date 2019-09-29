@@ -28,18 +28,9 @@
 
 - (void)showLogMethod
 {
-    [AYAlertViewController alertViewController:self title:nil message:@"查看log请输入：123456" cancel:@"Cancel" confirm:@"OK" style:AYAlertViewControllerStylePasswordText alert:^(UIAlertController *action) {
-        
-        UITextField *pwdText = action.textFields[0];
-        
-        if ([pwdText.text isEqualToString:@"123456"]) {
-            
-            AYLogNavigationController *navigationController = [AYLogNavigationController setupLogViewController];
-            
-            [self presentViewController:navigationController animated:YES completion:nil];
-            
-        }
-    }];
+    AYLogNavigationController *navigationController = [AYLogNavigationController setupLogViewController];
+    
+    [self presentViewController:navigationController animated:YES completion:nil];
     
 }
 
