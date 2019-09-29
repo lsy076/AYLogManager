@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "AYLogManager"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.summary      = "AYLogManager."
 s.description  = <<-DESC
 AYLogManager局域网内查看log
