@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AYLogManager/AYLogManager.h>
 
 @interface ViewController : AYBaseViewController
 
